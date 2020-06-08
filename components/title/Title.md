@@ -6,7 +6,4 @@ Default size
 Small size
 ```jsx
 <Title size="small">Small Site Title</Title>
-<br/>
-<br/>
-<br/>
 ```
