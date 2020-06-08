@@ -5,17 +5,17 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(j|t)sx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
       },
       {
         test: /\.s?css$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
+        test: /\.(png|jpe?g|gif|svg|woff|woff2)$/,
         loader: 'file-loader',
       },
     ],
